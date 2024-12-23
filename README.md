@@ -14,6 +14,7 @@ A sleek and modern BMW-themed login page built using HTML, CSS. The page include
 
     HTML5: For the structure and layout of the page.
     CSS3: For styling and responsive design.
+    JavaScript: For validating the input.
 
 . How to Use
 
