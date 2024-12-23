@@ -1,8 +1,9 @@
 body{
     background-image: url("sign2.jpg");
-    background-size: 100%;
-    background-position: 0px -44px;
-    background-repeat: no-repeat;
+    background-size: cover; /* Scales the image to cover the screen */
+    background-position: center; /* Centers the image */
+    margin: 0; /* Removes default margin on the body */
+    height: 100vh;
 }
 
 ul{
@@ -11,18 +12,15 @@ ul{
     list-style: none;
     overflow: hidden;
 }
-
 li{
     float: left;
 }
-
 li a{
     color:rgb(255, 240, 240) ;
     display: block;
     padding: 14px 16px;
     text-decoration: none;
 }
-
 li a:hover{
     text-decoration: underline;
 }
@@ -39,7 +37,6 @@ li#last{
     margin-top: 4px;
     margin-bottom: 10px;
 }
-
 #box{
     margin: auto;
     text-align: center;
@@ -63,7 +60,6 @@ input[type="email"]{
     background-color: rgb(205, 205, 205);
     
 }
-
 input[type="password"]{
     margin: 10px;
     width: 270px;
@@ -75,12 +71,10 @@ input[type="password"]{
     border-width: 0.5px 0.5px 0.5px 0.5px;
     background-color: rgb(205, 205, 205);
 }
-
 #ck{
     margin-right: 170px;
     color: rgb(54, 54, 54);
 }
-
 #submit{
     height: 25px;
     width: 75px;
@@ -91,21 +85,17 @@ input[type="password"]{
     border-width: 0.5px;
     background-color: rgb(154, 154, 154);
 }
-
 #submit:hover{
     background-color: rgb(169, 169, 169);;
 }
-
 #submit:active{
     background-color: rgb(121, 121, 121);
 }
-
 #create{
     text-align: center;
     font-size: 18px ;
     color: rgb(255, 255, 255);
 }
-
 #create a{
     color: rgba(68, 68, 253, 0.842);
 }
