@@ -1,7 +1,6 @@
 body{
     background-image: url("sign2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: 0px -44px;
 }
 
@@ -41,7 +40,7 @@ li#last{
     text-align: center;
     border: solid;
     border-radius: 10px;
-    background-color: rgba(230, 229, 229, 0.905);
+    background-color: rgba(205, 205, 205, 0.532);
     border-width: 1px;
     margin-top: 180px;
     width: 390px;
@@ -53,24 +52,32 @@ input[type="email"]{
     height: 20px;
     padding: 3px;
     font-size: 18px;
- }
+    border: none;
+    border: solid;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    background-color: rgb(205, 205, 205);
+    
+}
 input[type="password"]{
-     margin: 10px;
-     width: 270px;
-     height: 19px;
-     padding: 3px;
-     font-size: 18px;
-     margin-bottom: 10px;
+    margin: 10px;
+    width: 270px;
+    height: 19px;
+    padding: 3px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: solid;
+    border-width: 0.5px 0.5px 0.5px 0.5px;
+    background-color: rgb(205, 205, 205);
 }
 #ck{
     margin-right: 170px;
-    color: rgb(62, 62, 62);
+    color: rgb(54, 54, 54);
 }
 #submit{
     height: 25px;
     width: 75px;
     margin-top: 20px;
-    margin-bottom: 7px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: solid black;
     border-width: 0.5px;
@@ -85,20 +92,11 @@ input[type="password"]{
 #create{
     text-align: center;
     font-size: 18px ;
-    color: aliceblue;
-
+    color: rgb(255, 255, 255);
 }
 #create a{
     color: rgba(68, 68, 253, 0.842);
 }
 #create a:visited{
     color: rgba(68, 68, 253, 0.842);
-}
-#ending{
-    bottom: 0;
-    position: absolute;
-}
-h5{
-    color: aliceblue;
-    text-align: center;
 }
